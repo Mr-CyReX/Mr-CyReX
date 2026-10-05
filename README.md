@@ -11,6 +11,7 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Mr-CyReX&style=flat-square&color=555555&label=profile+views" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/Mr-CyReX?style=flat-square&color=555555&label=followers" alt="followers" />
 </p>
 
 ---
@@ -75,10 +76,11 @@ purpose-built workflows over unnecessary platform complexity
 ### GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Mr-CyReX&show_icons=true&hide_border=true&bg_color=000000&title_color=f5f5f5&text_color=8b949e&icon_color=58a6ff&include_all_commits=true" alt="GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Mr-CyReX&hide_border=true&background=000000&ring=58A6FF&fire=9EE7B7&currStreakLabel=F5F5F5&sideLabels=8B949E&currStreakNum=F5F5F5&sideNums=F5F5F5&dates=666666" alt="GitHub streak" />
+  <img height="170" src="https://streak-stats.demolab.com?user=Mr-CyReX&hide_border=true&background=000000&ring=58A6FF&fire=9EE7B7&currStreakLabel=F5F5F5&sideLabels=8B949E&currStreakNum=F5F5F5&sideNums=F5F5F5&dates=666666" alt="GitHub streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mr-CyReX&bg_color=000000&color=8b949e&line=58a6ff&point=9ee7b7&area=true&hide_border=true" alt="GitHub activity graph" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-CyReX&theme=github_dark" alt="GitHub profile activity summary" />
 </p>
+
+<p align="center"><sub>Most current systems work is private, so public-repository counters alone understate my activity.</sub></p>
