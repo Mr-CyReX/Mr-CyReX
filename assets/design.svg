@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
+<title id="title">Design background</title>
+<desc id="desc">How motion design influences Cy's software work.</desc>
+<style>
+  .panel{fill:#080a0d;stroke:#24282d}.fg{fill:#f3f4f6}.muted{fill:#9aa3ad}.line{stroke:#24282d}
+  @media (prefers-color-scheme: light){.panel{fill:#f7f8fa;stroke:#d8dee4}.fg{fill:#17191c}.muted{fill:#59636e}.line{stroke:#d8dee4}}
+</style>
+<rect x="1" y="1" width="998" height="268" rx="18" class="panel" stroke-width="2"/>
+<text x="40" y="50" class="fg" font-family="Segoe UI,Arial" font-size="24" font-weight="700">Motion design never really left.</text>
+<text x="40" y="86" class="muted" font-family="Segoe UI,Arial" font-size="15">Before I spent most of my time in Rust, I spent years in motion graphics and video editing.</text>
+<text x="40" y="111" class="muted" font-family="Segoe UI,Arial" font-size="15">I still think in timing, rhythm, hierarchy, and transitions — I just apply it to software now.</text>
+<line x1="40" y1="146" x2="960" y2="146" class="line"/>
+<path d="M54 202 C160 151 234 231 340 179 C449 126 533 234 652 175 C744 130 838 157 944 202"
+      fill="none" stroke="#69c8ff" stroke-width="3" stroke-linecap="round"/>
+<circle cx="54" cy="202" r="5" fill="#8dff78"/>
+<circle cx="340" cy="179" r="5" fill="#69c8ff"/>
+<circle cx="652" cy="175" r="5" fill="#8dff78"/>
+<circle cx="944" cy="202" r="5" fill="#69c8ff"/>
+<text x="40" y="247" class="muted" font-family="Consolas,monospace" font-size="11">timing · hierarchy · motion · feel</text>
+</svg>

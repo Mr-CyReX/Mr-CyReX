@@ -1,24 +1,16 @@
 <!--
   Cy / Mr-CyReX — profile README
-  Future visual slot: custom </Cy> WebP hero / avatar treatment.
+  The final transparent WebP identity/avatar can replace or sit above hero.svg later.
 -->
 
-<div align="center">
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Ali Sh / Cy — software developer and motion designer" />
+</p>
 
-# &lt;/Cy&gt;
-
-### native on purpose · local when it matters · motion by design
-
-I like software **close to the machine**, explicit enough to reason about, and polished enough that the interface feels intentional.
-
-**Rust + GPUI are home.** I build control surfaces, internal tools, and agent infrastructure — and my motion-design background leaks into all of it.
-
-<br>
-
-![Profile views](https://komarev.com/ghpvc/?username=Mr-CyReX&style=flat-square&color=111111&label=profile+views)
-![Followers](https://img.shields.io/github/followers/Mr-CyReX?style=flat-square&label=followers&labelColor=111111&color=69c8ff)
-
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Mr-CyReX&style=flat-square&color=111111&label=profile+views" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/Mr-CyReX?style=flat-square&label=followers&labelColor=111111&color=69c8ff" alt="Followers" />
+</p>
 
 <br>
 
@@ -66,33 +58,15 @@ MCP · IPC · local-first architecture · process control · SQLite-backed state
 
 <br>
 
-<h2 align="center">Selected systems</h2>
-
 <p align="center">
-Most of my serious systems work is private. This is the surface that best represents how I build.
-</p>
-
-<p align="center">
-  <img src="./assets/systems.svg" width="100%" alt="Cy active systems: Hexus, Computer Control MCP, OpsDesk, and Rill" />
+  <img src="./assets/systems.svg" width="100%" alt="What Cy is building: Hexus, Computer Control MCP, OpsDesk, and Rill" />
 </p>
 
 <br>
 
----
-
-<div align="center">
-
-## Design is part of the engineering
-
-</div>
-
-> **Motion design taught me timing and feel. Systems work taught me state, ownership, and failure. I don't treat those as separate disciplines when I'm building software people have to live in.**
-
-<div align="center">
-
-<code>small binaries</code> · <code>fast interfaces</code> · <code>typed state</code> · <code>local-first when useful</code> · <code>purpose-built workflows</code>
-
-</div>
+<p align="center">
+  <img src="./assets/design.svg" width="100%" alt="Cy's motion design background and how it shapes his software work" />
+</p>
 
 <br>
 
@@ -110,6 +84,6 @@ Most of my serious systems work is private. This is the surface that best repres
 
 <br>
 
-<sub>Most current systems work is private, so public-repository counters alone understate my activity.</sub>
+<sub>Most of what I'm building right now is private, so the public-repo counters only tell part of the story.</sub>
 
 </div>
