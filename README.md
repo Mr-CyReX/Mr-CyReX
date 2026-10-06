@@ -1,53 +1,43 @@
 <!--
   Cy / Mr-CyReX — profile README
-  Visual identity slot: a custom </Cy> WebP hero/avatar treatment will be added above the title later.
+  Future identity slot: custom </Cy> WebP hero / avatar treatment.
 -->
 
 <div align="center">
 
 # &lt;/Cy&gt;
 
-**Native software · systems tooling · motion-aware interfaces**
+### Native software · systems tooling · motion-aware interfaces
 
-I build fast, purpose-built desktop software and agent infrastructure — mostly with **Rust, GPUI, SQLite, and Windows-native tooling**.
+I build software **close to the machine**, and I care just as much about how it feels to use.
+
+Native Windows tools, agent/control infrastructure, local-first workflows, and interfaces where motion is part of the system — not decoration.
 
 [![Profile views](https://komarev.com/ghpvc/?username=Mr-CyReX&style=flat-square&color=111111&label=profile+views)](https://github.com/Mr-CyReX)
 [![Followers](https://img.shields.io/github/followers/Mr-CyReX?style=flat-square&label=followers&labelColor=111111&color=2ea8ff)](https://github.com/Mr-CyReX?tab=followers)
 
+<br>
+
+<kbd>NATIVE WINDOWS</kbd>&nbsp;&nbsp;
+<kbd>AGENT CONTROL</kbd>&nbsp;&nbsp;
+<kbd>LOCAL-FIRST</kbd>&nbsp;&nbsp;
+<kbd>MOTION SYSTEMS</kbd>
+
 </div>
 
----
+<br>
 
-<table>
-<tr>
-<td width="25%" valign="top">
+<div align="center">
 
-### Native apps
-Small, fast Windows software with custom UI instead of browser-shaped desktop apps.
+### What ties my work together
 
-</td>
-<td width="25%" valign="top">
+**clear state · low overhead · local ownership · deliberate interaction**
 
-### Agent systems
-MCPs, control planes, IPC, session routing, safety gates, and machine-side tooling.
+I prefer purpose-built software over unnecessary platform complexity — tools shaped around the workflow instead of forcing the workflow around the tool.
 
-</td>
-<td width="25%" valign="top">
+</div>
 
-### Internal tools
-Local-first operational software that replaces spreadsheet-heavy and repetitive workflows.
-
-</td>
-<td width="25%" valign="top">
-
-### Motion systems
-Interaction, timing, transitions, and Rive-driven motion treated as part of the product system.
-
-</td>
-</tr>
-</table>
-
-> **The common thread:** clear state, low overhead, local ownership where it makes sense, and software shaped around the workflow instead of the other way around.
+<br>
 
 ## Stack
 
@@ -60,11 +50,15 @@ Interaction, timing, transitions, and Rive-driven motion treated as part of the 
 ![Windows](https://img.shields.io/badge/Windows%20Native-111111?style=flat-square&logo=windows11&logoColor=ffffff)
 ![PowerShell](https://img.shields.io/badge/PowerShell-111111?style=flat-square&logo=powershell&logoColor=2ea8ff)
 
+<br>
+
 <img src="https://skillicons.dev/icons?i=cpp,ts,go,docker,git,github&theme=dark" height="38" alt="C++, TypeScript, Go, Docker, Git, GitHub" />
 
 </div>
 
-<table>
+<br>
+
+<table align="center">
 <tr>
 <td width="50%" valign="top">
 
@@ -87,52 +81,87 @@ MCP · IPC · local-first architecture · process control · SQLite-backed state
 </tr>
 </table>
 
+<br>
+
+<div align="center">
+
 ## Selected systems
 
-Most of my current systems work is private. These are active systems I build and use; descriptions are intentionally scoped to what exists.
+Most of the systems I actively build are private. These are the ones that best describe the kind of engineering I enjoy.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+</div>
 
-### Hexus
-<sub>PRIVATE · ACTIVE</sub>
+<br>
 
+<h3 align="center">Hexus</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PRIVATE-111111?style=flat-square" alt="Private" />
+  <img src="https://img.shields.io/badge/ACTIVE-8dff78?style=flat-square&labelColor=111111&color=8dff78" alt="Active" />
+</p>
+
+<p align="center">
 Native agent/work harness built around structured state, direct machine capabilities, workspace orchestration, and human/agent collaboration.
+</p>
 
-</td>
-<td width="50%" valign="top">
+<p align="center"><sub>structured state · machine capabilities · workspace orchestration · agent coordination</sub></p>
 
-### Computer Control MCP
-<sub>PRIVATE · ACTIVE</sub>
+<br>
 
+<h3 align="center">Computer Control MCP</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PRIVATE-111111?style=flat-square" alt="Private" />
+  <img src="https://img.shields.io/badge/RUST-2ea8ff?style=flat-square&labelColor=111111&color=2ea8ff" alt="Rust" />
+</p>
+
+<p align="center">
 Windows-native control plane for agent sessions, process control, IPC, operator notes, logs, safety gates, and deterministic computer interaction.
+</p>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<p align="center"><sub>session routing · IPC · operator control · safety gates · audit/logging</sub></p>
 
-### OpsDesk
-<sub>PRIVATE DEMO · RUST + GPUI + SQLITE</sub>
+<br>
 
+<h3 align="center">OpsDesk</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PRIVATE_DEMO-111111?style=flat-square" alt="Private demo" />
+  <img src="https://img.shields.io/badge/RUST_+_GPUI_+_SQLITE-8dff78?style=flat-square&labelColor=111111&color=8dff78" alt="Rust GPUI SQLite" />
+</p>
+
+<p align="center">
 Native internal-operations app with role-based auth, exception queues, approvals, audit history, validated imports, attachments, and local data ownership.
+</p>
 
-</td>
-<td width="50%" valign="top">
+<p align="center"><sub>auth · approvals · audit trail · import validation · local-first operations</sub></p>
 
-### Rill
-<sub>PRIVATE · RUST + GPUI + RIVE</sub>
+<br>
 
+<h3 align="center">Rill</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PRIVATE-111111?style=flat-square" alt="Private" />
+  <img src="https://img.shields.io/badge/GPUI_+_RIVE-2ea8ff?style=flat-square&labelColor=111111&color=2ea8ff" alt="GPUI Rive" />
+</p>
+
+<p align="center">
 Native music-player experiment focused on custom Rive rendering, window motion, transitions, and lightweight desktop UX.
+</p>
 
-</td>
-</tr>
-</table>
+<p align="center"><sub>custom Rive rendering · native motion · window choreography · lightweight UX</sub></p>
 
-## Design background
+<br>
 
-Before software became the center of my work, I worked in **motion graphics and video editing**. That still affects how I build: hierarchy, timing, transitions, responsiveness, and visual polish are engineering concerns to me, not decoration added at the end.
+---
+
+<div align="center">
+
+## Design is part of the engineering
+
+</div>
+
+> **Motion design taught me to care about timing and feel. Systems work taught me to care about state, ownership, and failure. I build with both in mind.**
 
 <div align="center">
 
@@ -140,14 +169,21 @@ Before software became the center of my work, I worked in **motion graphics and 
 
 </div>
 
----
+<br>
 
-## GitHub activity
+---
 
 <div align="center">
 
-<img width="48%" src="https://streak-stats.demolab.com?user=Mr-CyReX&hide_border=true&background=000000&ring=2EA8FF&fire=8DFF78&currStreakLabel=F5F5F5&sideLabels=8B949E&currStreakNum=F5F5F5&sideNums=F5F5F5&dates=666666" alt="GitHub streak" />
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-CyReX&theme=github_dark" alt="GitHub activity summary" />
+## GitHub activity
+
+<img width="56%" src="https://streak-stats.demolab.com?user=Mr-CyReX&hide_border=true&background=000000&ring=2EA8FF&fire=8DFF78&currStreakLabel=F5F5F5&sideLabels=8B949E&currStreakNum=F5F5F5&sideNums=F5F5F5&dates=666666" alt="GitHub streak" />
+
+<br><br>
+
+<img width="92%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mr-CyReX&theme=github_dark" alt="GitHub activity summary" />
+
+<br>
 
 <sub>Most current systems work is private, so public-repository counters alone understate my activity.</sub>
 
