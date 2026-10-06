@@ -33,28 +33,9 @@
 
 <br>
 
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-**Primary**<br>
-Rust · GPUI · SQLite · Windows-native tooling · PowerShell
-
-**UI / motion**<br>
-Rive · GPUI · native animation systems · motion design
-
-</td>
-<td width="50%" valign="top">
-
-**Working stack**<br>
-C++ · TypeScript · Go · Docker · Git · GitHub · Slint
-
-**Systems**<br>
-MCP · IPC · local-first architecture · process control · SQLite-backed state
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="./assets/stack.svg" width="100%" alt="Cy's primary and supporting stack" />
+</p>
 
 <br>
 

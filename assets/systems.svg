@@ -43,6 +43,4 @@
 <text x="544" y="352" class="muted" font-family="Segoe UI,Arial" font-size="13">motion, window behaviour, and UI polish a little further.</text>
 <text x="544" y="380" class="dim" font-family="Consolas,monospace" font-size="11">RUST · GPUI · RIVE</text>
 
-<line x1="34" y1="426" x2="966" y2="426" stroke="#20252b"/>
-<text x="34" y="451" class="dim" font-family="Consolas,monospace" font-size="11">CURRENTLY: mostly Rust, too many windows open, probably rebuilding something.</text>
 </svg>
