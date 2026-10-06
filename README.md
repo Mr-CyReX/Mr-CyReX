@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Ali Sh / Cy — software developer and motion designer" />
+  <img src="./assets/hero-v2.svg" width="100%" alt="Ali Sh / Cy — software developer and motion designer" />
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@
 <br>
 
 <p align="center">
-  <img src="./assets/systems.svg" width="100%" alt="What Cy is building: Hexus, Computer Control MCP, OpsDesk, and Rill" />
+  <img src="./assets/systems-v2.svg" width="100%" alt="What Cy is building: Hexus, Computer Control MCP, OpsDesk, and Rill" />
 </p>
 
 <br>
