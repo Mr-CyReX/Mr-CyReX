@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title desc">
+  <title id="title">Cy active systems</title>
+  <desc id="desc">A dark systems board showing Hexus, Computer Control MCP, OpsDesk, and Rill.</desc>
+  <defs>
+    <filter id="glow-blue" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-green" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="468" rx="18" fill="#050607" stroke="#24282d" stroke-width="2"/>
+
+  <text x="34" y="42" fill="#f3f4f6" font-family="Segoe UI, Inter, Arial" font-size="20" font-weight="700">CY // ACTIVE SYSTEMS</text>
+  <text x="34" y="66" fill="#7d8590" font-family="Segoe UI, Inter, Arial" font-size="12" letter-spacing="1.6">NATIVE · LOCAL-FIRST · AGENT INFRASTRUCTURE · MOTION</text>
+  <text x="964" y="47" text-anchor="end" fill="#f3f4f6" font-family="Consolas, monospace" font-size="18" font-weight="700">&lt;/Cy&gt;</text>
+  <line x1="34" y1="86" x2="966" y2="86" stroke="#20252b"/>
+
+  <!-- Hexus -->
+  <rect x="34" y="112" width="448" height="132" rx="12" fill="#0b0d10" stroke="#24282d"/>
+  <circle cx="60" cy="139" r="5" fill="#8dff78" filter="url(#glow-green)"/>
+  <text x="76" y="145" fill="#f3f4f6" font-family="Segoe UI, Inter, Arial" font-size="20" font-weight="700">Hexus</text>
+  <text x="448" y="143" text-anchor="end" fill="#8dff78" font-family="Consolas, monospace" font-size="11">ACTIVE</text>
+  <text x="60" y="174" fill="#a9b1ba" font-family="Segoe UI, Inter, Arial" font-size="13">Native agent/work harness around structured state,</text>
+  <text x="60" y="194" fill="#a9b1ba" font-family="Segoe UI, Inter, Arial" font-size="13">machine capabilities, orchestration, and shared control.</text>
+  <text x="60" y="222" fill="#66707a" font-family="Consolas, monospace" font-size="11">RUST · GPUI · SQLITE · CONTROL PLANE</text>
+
+  <!-- CCMCP -->
+  <rect x="518" y="112" width="448" height="132" rx="12" fill="#0b0d10" stroke="#24282d"/>
+  <circle cx="544" cy="139" r="5" fill="#69c8ff" filter="url(#glow-blue)"/>
+  <text x="560" y="145" fill="#f3f4f6" font-family="Segoe UI, Inter, Arial" font-size="20" font-weight="700">Computer Control MCP</text>
+  <text x="932" y="143" text-anchor="end" fill="#69c8ff" font-family="Consolas, monospace" font-size="11">PRIVATE</text>
+  <text x="544" y="174" fill="#a9b1ba" font-family="Segoe UI, Inter, Arial" font-size="13">Typed doorway from agents into Windows: sessions, IPC,</text>
+  <text x="544" y="194" fill="#a9b1ba" font-family="Segoe UI, Inter, Arial" font-size="13">process control, operator notes, safety gates, and audit.</text>
+  <text x="544" y="222" fill="#66707a" font-family="Consolas, monospace" font-size="11">RUST · WINDOWS · IPC · MCP</text>
+
+  <!-- OpsDesk -->
+  <rect x="34" y="266" width="448" height="132" rx="12" fill="#0b0d10" stroke="#24282d"/>
+  <circle cx="60" cy="293" r="5" fill="#8dff78" filter="url(#glow-green)"/>
+  <text x="76" y="299" fill="#f3f4f6" font-family="Segoe UI, Inter, Arial" font-size="20" font-weight="700">OpsDesk</text>
+  <text x="448" y="297" text-anchor="end" fill="#8dff78" font-family="Consolas, monospace" font-size="11">DEMO READY</text>
+  <text x="60" y="328" fill="#a9b1ba" font-family="Segoe UI, Inter, Arial" font-size="13">Private operations software: roles, exceptions, approvals,</text>
+  <text x="60" y="348" fill="#a9b1ba" font-family="Segoe UI, Inter, Arial" font-size="13">audit history, validated imports, and local data ownership.</text>
+  <text x="60" y="376" fill="#66707a" font-family="Consolas, monospace" font-size="11">RUST · GPUI · SQLITE · ARGON2ID</text>
+
+  <!-- Rill -->
+  <rect x="518" y="266" width="448" height="132" rx="12" fill="#0b0d10" stroke="#24282d"/>
+  <circle cx="544" cy="293" r="5" fill="#69c8ff" filter="url(#glow-blue)"/>
+  <text x="560" y="299" fill="#f3f4f6" font-family="Segoe UI, Inter, Arial" font-size="20" font-weight="700">Rill</text>
+  <text x="932" y="297" text-anchor="end" fill="#69c8ff" font-family="Consolas, monospace" font-size="11">ITERATING</text>
+  <text x="544" y="328" fill="#a9b1ba" font-family="Segoe UI, Inter, Arial" font-size="13">Native music-player experiment combining GPUI, custom</text>
+  <text x="544" y="348" fill="#a9b1ba" font-family="Segoe UI, Inter, Arial" font-size="13">Rive rendering, window choreography, and lightweight UX.</text>
+  <text x="544" y="376" fill="#66707a" font-family="Consolas, monospace" font-size="11">RUST · GPUI · RIVE · NATIVE MOTION</text>
+
+  <line x1="34" y1="421" x2="966" y2="421" stroke="#20252b"/>
+  <circle cx="45" cy="444" r="4" fill="#8dff78"/>
+  <text x="59" y="448" fill="#8a939d" font-family="Consolas, monospace" font-size="11">build close to the machine</text>
+  <circle cx="258" cy="444" r="4" fill="#69c8ff"/>
+  <text x="272" y="448" fill="#8a939d" font-family="Consolas, monospace" font-size="11">design for humans</text>
+  <text x="966" y="448" text-anchor="end" fill="#505861" font-family="Consolas, monospace" font-size="11">PRIVATE WORK · SELECTED SURFACE</text>
+</svg>
