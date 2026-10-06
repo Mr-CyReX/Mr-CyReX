@@ -1,26 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-labelledby="title desc">
-<title id="title">Cy profile intro</title>
-<desc id="desc">Ali Sh, software developer and motion designer.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+<title id="title">Ali Sh — Cy</title>
+<desc id="desc">Software developer and motion graphics designer.</desc>
 <style>
-  .panel{fill:#080a0d;stroke:#24282d}.fg{fill:#f3f4f6}.muted{fill:#8b949e}.line{stroke:#24282d}
-  @media (prefers-color-scheme: light){.panel{fill:#f7f8fa;stroke:#d8dee4}.fg{fill:#17191c}.muted{fill:#59636e}.line{stroke:#d8dee4}}
+  .tile{fill:#050607;stroke:#1b2026;stroke-width:1.25}
+  .raised{fill:#090c0f;stroke:#20262d;stroke-width:1.1}
+  .display{font-family:"Bricolage Grotesque","Segoe UI Variable Display","Segoe UI",sans-serif}
+  .body{font-family:"Instrument Sans","Segoe UI Variable Text","Segoe UI",sans-serif}
+  .mono{font-family:"Geist Mono","Cascadia Code","Consolas",monospace}
+  .fg{fill:#f4f6f8}.muted{fill:#929ba5}.dim{fill:#68727d}
+  .plane{fill:#68727d}.planeLine{fill:none;stroke:#56606a;stroke-width:1;opacity:.42}
+  .guide{fill:none;stroke:#343c45;stroke-width:.8;stroke-dasharray:2 7;opacity:.62}
+  .handle{fill:none;stroke:#59636d;stroke-width:1.05;stroke-linecap:round;opacity:.78}
+  .cyan{fill:none;stroke:#69c8ff;stroke-width:2.4;stroke-linecap:round}
+  .lime{fill:none;stroke:#8dff78;stroke-width:2.4;stroke-linecap:round}
+  .slash{fill:none;stroke:#69c8ff;stroke-width:3;stroke-linecap:round;opacity:.7}
+  .slash2{fill:none;stroke:#8dff78;stroke-width:2.2;stroke-linecap:round;opacity:.62}
+  .reveal1{opacity:0;transform:translateY(7px);animation:reveal .65s cubic-bezier(.32,.72,0,1) .08s forwards}
+  .reveal2{opacity:0;transform:translateY(7px);animation:reveal .65s cubic-bezier(.32,.72,0,1) .22s forwards}
+  .reveal3{opacity:0;transform:translateY(7px);animation:reveal .65s cubic-bezier(.32,.72,0,1) .38s forwards}
+  .draw{stroke-dasharray:430;stroke-dashoffset:430;animation:draw 1.25s cubic-bezier(.32,.72,0,1) .55s forwards}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 6.6s cubic-bezier(.32,.72,0,1) infinite}
+  .p2{animation-delay:1.8s}.p3{animation-delay:3.6s}
+  .cursor{animation:blink 1.2s steps(1,end) infinite}
+  .tracer{opacity:.95}
+  @keyframes reveal{to{opacity:1;transform:translateY(0)}}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes pulse{0%,100%{opacity:.48;transform:scale(.94)}50%{opacity:1;transform:scale(1.05)}}
+  @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:.15}}
+  @media (prefers-color-scheme:light){.plane{fill:#59636e}.planeLine{stroke:#a2aab3}.guide{stroke:#aab2bb}.handle{stroke:#89939d}}
+  @media (prefers-reduced-motion:reduce){.reveal1,.reveal2,.reveal3{opacity:1;transform:none;animation:none}.draw{stroke-dashoffset:0;animation:none}.pulse,.cursor{animation:none}.tracer{display:none}}
 </style>
-<rect x="1" y="1" width="998" height="308" rx="20" class="panel" stroke-width="2"/>
-<text x="42" y="48" class="muted" font-family="Consolas,monospace" font-size="12" letter-spacing="1.6">ALI SH  /  MR-CYREX</text>
-<text x="42" y="128" class="fg" font-family="Segoe UI,Arial" font-size="72" font-weight="750">&lt;/Cy&gt;</text>
-<text x="45" y="167" class="fg" font-family="Segoe UI,Arial" font-size="19" font-weight="650">Software developer + motion designer</text>
-<text x="45" y="206" class="muted" font-family="Segoe UI,Arial" font-size="15">I build native tools, private software, and systems I actually want to use.</text>
-<text x="45" y="231" class="muted" font-family="Segoe UI,Arial" font-size="15">Rust + GPUI are where I’m happiest; motion design is why I obsess over how the whole thing feels.</text>
 
-<!-- abstract motion curve -->
-<path d="M690 83 C760 20 892 56 920 130 C944 193 860 248 770 221 C715 205 693 171 711 139 C729 107 786 110 815 137"
-      fill="none" stroke="#69c8ff" stroke-width="3" stroke-linecap="round"/>
-<path d="M717 226 C757 255 841 259 889 226" fill="none" stroke="#8dff78" stroke-width="3" stroke-linecap="round"/>
-<circle cx="690" cy="83" r="6" fill="#69c8ff"/>
-<circle cx="920" cy="130" r="6" fill="#69c8ff"/>
-<circle cx="717" cy="226" r="6" fill="#8dff78"/>
-<circle cx="889" cy="226" r="6" fill="#8dff78"/>
-<circle cx="815" cy="137" r="7" class="panel" stroke="#f3f4f6" stroke-width="2"/>
-<line x1="42" y1="270" x2="958" y2="270" class="line"/>
-<text x="42" y="293" class="muted" font-family="Consolas,monospace" font-size="11">RUST · GPUI · SQLITE · RIVE</text>
+<!-- transparent-plane construction marks -->
+<path d="M658 28 L972 28 M938 18 L970 18 M944 38 L972 38" class="planeLine"/>
+<g opacity=".34" fill="#68727d">
+  <circle cx="900" cy="24" r="1.4"/><circle cx="912" cy="24" r="1.4"/><circle cx="924" cy="24" r="1.4"/>
+  <circle cx="900" cy="36" r="1.4"/><circle cx="912" cy="36" r="1.4"/><circle cx="924" cy="36" r="1.4"/>
+</g>
+
+<!-- main identity tile: soft on the left, chipped on the right -->
+<path class="tile reveal1" d="M42 42 H586 L630 86 V286 Q630 314 602 314 H42 Q18 314 18 290 V66 Q18 42 42 42 Z"/>
+<g class="reveal2">
+  <text x="52" y="78" class="mono dim" font-size="11" letter-spacing="1.6">ALI SH / MR-CYREX</text>
+  <text x="52" y="158" class="display fg" font-size="78" font-weight="760">&lt;/Cy&gt;</text>
+  <text x="56" y="201" class="display fg" font-size="20" font-weight="680">Software developer &amp; motion graphics designer</text>
+  <text x="56" y="246" class="body muted" font-size="15">I build native tools, internal software, and systems I actually use.</text>
+  <text x="56" y="274" class="body muted" font-size="15">Rust · GPUI · SQLite · Rive</text>
+</g>
+
+<!-- signature slash cut -->
+<path d="M586 42 L630 86" class="slash"/>
+<path d="M568 42 L612 86" class="slash2"/>
+
+<!-- motion / construction tile -->
+<path class="tile reveal2" d="M704 72 H948 Q976 72 976 100 V240 L944 272 H704 Q682 272 682 250 V94 Q682 72 704 72 Z"/>
+
+<g class="reveal3">
+  <!-- real bezier construction -->
+  <path d="M718 118 H940 M718 168 H940 M718 224 H940 M748 94 V246 M842 94 V246 M914 94 V246" class="guide"/>
+  <path d="M914 118 L842 96 M748 168 L754 116 M748 168 L744 218 M908 224 L838 244" class="handle"/>
+  <path id="motionCurve" d="M914 118 C842 96 754 116 748 168 C744 218 838 244 908 224" class="cyan draw"/>
+  <path d="M835 211 L878 136" class="lime"/>
+
+  <circle cx="914" cy="118" r="4.8" fill="#69c8ff" class="pulse"/>
+  <circle cx="748" cy="168" r="4.8" fill="#8dff78" class="pulse p2"/>
+  <circle cx="908" cy="224" r="4.8" fill="#69c8ff" class="pulse p3"/>
+  <circle cx="842" cy="96" r="3" fill="#59636d"/>
+  <circle cx="754" cy="116" r="3" fill="#59636d"/>
+  <circle cx="744" cy="218" r="3" fill="#59636d"/>
+  <circle cx="838" cy="244" r="3" fill="#59636d"/>
+
+  <circle r="3.4" fill="#f4f6f8" class="tracer">
+    <animateMotion dur="8.4s" begin="1.4s" repeatCount="indefinite" path="M914 118 C842 96 754 116 748 168 C744 218 838 244 908 224"/>
+  </circle>
+</g>
+
+<!-- console module overlaps both worlds -->
+<path class="raised reveal3" d="M616 280 H918 L942 304 V334 H638 L616 314 Z"/>
+<circle cx="642" cy="307" r="4.2" fill="#8dff78"/>
+<text x="658" y="312" class="mono muted" font-size="11.5">&gt; cargo build --release</text>
+<rect x="848" y="300" width="7" height="14" rx="1.5" fill="#69c8ff" class="cursor"/>
+
+<!-- one structural link between identity and motion -->
+<path d="M630 178 H682" class="planeLine"/>
+<circle cx="656" cy="178" r="3.2" fill="#69c8ff"/>
 </svg>

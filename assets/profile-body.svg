@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1130" viewBox="0 0 1000 1130" role="img" aria-labelledby="title desc">
+<title id="title">Cy profile — stack, projects, and motion</title>
+<desc id="desc">A connected blueprint showing Cy's stack, current projects, and motion graphics background.</desc>
+
+<defs>
+  <filter id="glowC" x="-250%" y="-250%" width="600%" height="600%"><feGaussianBlur stdDeviation="2.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="glowG" x="-250%" y="-250%" width="600%" height="600%"><feGaussianBlur stdDeviation="2.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+
+<style>
+  .tile{fill:#050607;stroke:#1a1f25;stroke-width:1.25}
+  .raised{fill:#090c0f;stroke:#20262d;stroke-width:1.05}
+  .display{font-family:"Bricolage Grotesque","Segoe UI Variable Display","Segoe UI",sans-serif}
+  .body{font-family:"Instrument Sans","Segoe UI Variable Text","Segoe UI",sans-serif}
+  .mono{font-family:"Geist Mono","Cascadia Code","Consolas",monospace}
+  .fg{fill:#f4f6f8}.muted{fill:#929ba5}.dim{fill:#68727d}.pagefg{fill:#f4f6f8}.pagemuted{fill:#929ba5}
+  .bus{fill:none;stroke:#4e5963;stroke-width:1;opacity:.48;stroke-linecap:round;stroke-linejoin:round}
+  .busDash{fill:none;stroke:#343c45;stroke-width:.8;opacity:.42;stroke-dasharray:2 7}
+  .cyan{fill:none;stroke:#69c8ff;stroke-width:2.05;stroke-linecap:round}
+  .lime{fill:none;stroke:#8dff78;stroke-width:2.05;stroke-linecap:round}
+  .handle{fill:none;stroke:#56616c;stroke-width:1;stroke-linecap:round}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 7s cubic-bezier(.32,.72,0,1) infinite}
+  .p2{animation-delay:1.7s}.p3{animation-delay:3.4s}.p4{animation-delay:5.1s}
+  .tracer{opacity:.95}
+  .fade1{opacity:0;transform:translateY(7px);animation:in .6s cubic-bezier(.32,.72,0,1) .2s forwards}
+  .fade2{opacity:0;transform:translateY(7px);animation:in .6s cubic-bezier(.32,.72,0,1) .42s forwards}
+  .fade3{opacity:0;transform:translateY(7px);animation:in .6s cubic-bezier(.32,.72,0,1) .64s forwards}
+  @keyframes in{to{opacity:1;transform:translateY(0)}}
+  @keyframes pulse{0%,100%{opacity:.45;transform:scale(.94)}50%{opacity:1;transform:scale(1.05)}}
+  @media (prefers-color-scheme:light){.pagefg{fill:#17191c}.pagemuted{fill:#59636e}.bus{stroke:#9aa4ae}.busDash{stroke:#aab2bb}}
+  @media (prefers-reduced-motion:reduce){.pulse,.fade1,.fade2,.fade3{animation:none;opacity:1;transform:none}.tracer{display:none}}
+</style>
+
+<!-- Blueprint bus: actual relationships, not wallpaper -->
+<path d="M80 232 V292 H500 V344 M500 292 H836 V340" class="bus"/>
+<path d="M500 344 V624 M500 624 H208 V676 M500 624 H800 V654" class="bus"/>
+<path d="M208 820 V902 H686" class="bus"/>
+<path d="M800 798 V868 H686 V902" class="bus"/>
+<path d="M80 232 H40 V676 H208" class="busDash"/>
+
+<circle cx="500" cy="292" r="3.4" fill="#69c8ff"/>
+<circle cx="500" cy="624" r="3.4" fill="#8dff78"/>
+<circle cx="686" cy="902" r="3.4" fill="#69c8ff"/>
+
+<!-- STACK -->
+<text x="28" y="42" class="display pagefg" font-size="24" font-weight="720">Stack</text>
+
+<g class="fade1">
+  <!-- core card -->
+  <path class="tile" d="M50 70 H570 L608 108 V210 Q608 236 582 236 H50 Q28 236 28 214 V92 Q28 70 50 70 Z"/>
+  <path d="M570 70 L608 108" class="lime"/>
+  <circle cx="62" cy="109" r="4.6" fill="#8dff78" class="pulse"/>
+  <text x="80" y="114" class="mono dim" font-size="10.5" letter-spacing="1.1">CORE</text>
+  <text x="60" y="158" class="display fg" font-size="32" font-weight="730">Rust · GPUI · SQLite</text>
+  <text x="60" y="195" class="body muted" font-size="15">Windows-native tooling · PowerShell</text>
+
+  <!-- motion card, clipped on left -->
+  <path class="tile" d="M650 86 H954 Q976 86 976 108 V176 Q976 198 954 198 H674 L638 162 V110 Q638 86 650 86 Z"/>
+  <path d="M638 162 L674 198" class="cyan"/>
+  <circle cx="684" cy="120" r="4.6" fill="#69c8ff" class="pulse p2"/>
+  <text x="702" y="125" class="mono dim" font-size="10.5" letter-spacing="1.1">MOTION</text>
+  <text x="684" y="161" class="display fg" font-size="19" font-weight="680">Rive · GPUI · Slint</text>
+
+  <!-- supporting chip -->
+  <path class="raised" d="M690 210 H950 L970 230 V258 H712 L690 238 Z"/>
+  <circle cx="716" cy="234" r="4.2" fill="#8dff78" class="pulse p3"/>
+  <text x="732" y="238" class="body muted" font-size="13.5">C++ · TypeScript · Go · Docker · Git</text>
+</g>
+
+<!-- PROJECTS -->
+<text x="28" y="334" class="display pagefg" font-size="24" font-weight="720">What I'm building</text>
+<text x="28" y="359" class="body pagemuted" font-size="13">Most of it is private; these are the parts that best explain what I work on.</text>
+
+<g class="fade2">
+  <!-- Hexus: strongest card -->
+  <path class="tile" d="M50 388 H520 L560 428 V530 Q560 554 536 554 H50 Q28 554 28 532 V410 Q28 388 50 388 Z"/>
+  <circle cx="60" cy="424" r="4.7" fill="#8dff78" class="pulse"/>
+  <text x="78" y="431" class="display fg" font-size="22" font-weight="710">Hexus</text>
+  <text x="60" y="473" class="body muted" font-size="14">The thing I spend most of my time on — my workspace for projects,</text>
+  <text x="60" y="496" class="body muted" font-size="14">agents, tools, and the machine itself.</text>
+  <path class="raised" d="M56 516 H231 L246 531 V548 H72 L56 536 Z"/>
+  <text x="75" y="537" class="mono dim" font-size="10.2">RUST · GPUI · SQLITE</text>
+
+  <!-- small system map inside Hexus -->
+  <path d="M425 424 H448 L470 408 M448 424 L472 442" class="bus"/>
+  <circle cx="425" cy="424" r="3.4" fill="#8dff78"/>
+  <circle cx="448" cy="424" r="3.2" fill="#69c8ff"/>
+  <circle cx="470" cy="408" r="3" fill="#68727d"/>
+  <circle cx="472" cy="442" r="3" fill="#68727d"/>
+
+  <!-- CCMCP -->
+  <path class="tile" d="M626 374 H956 Q976 374 976 394 V510 L944 542 H626 Q606 542 606 522 V394 Q606 374 626 374 Z"/>
+  <circle cx="638" cy="410" r="4.7" fill="#69c8ff" class="pulse p2"/>
+  <text x="656" y="417" class="display fg" font-size="19" font-weight="710">Computer Control MCP</text>
+  <text x="638" y="458" class="body muted" font-size="13">I built this because screenshot-click guessing got annoying.</text>
+  <text x="638" y="481" class="body muted" font-size="13">Now agents get actual controls instead of guessing.</text>
+  <path class="raised" d="M632 507 H824 L840 523 V540 H648 L632 528 Z"/>
+  <text x="650" y="528" class="mono dim" font-size="10">RUST · WINDOWS · IPC · MCP</text>
+  <path id="ccPath" d="M936 414 V490" class="cyan"/>
+  <circle r="3.2" fill="#f4f6f8" class="tracer"><animateMotion dur="5.2s" repeatCount="indefinite" path="M936 414 V490"/></circle>
+</g>
+
+<g class="fade3">
+  <!-- OpsDesk -->
+  <path class="tile" d="M50 674 H370 L406 710 V790 Q406 816 380 816 H50 Q28 816 28 794 V696 Q28 674 50 674 Z"/>
+  <circle cx="60" cy="710" r="4.7" fill="#8dff78" class="pulse p3"/>
+  <text x="78" y="717" class="display fg" font-size="20" font-weight="710">OpsDesk</text>
+  <text x="60" y="756" class="body muted" font-size="13">A demo for the business work that still gets trapped in spreadsheets:</text>
+  <text x="60" y="779" class="body muted" font-size="13">roles, approvals, imports, audit trails, and local data.</text>
+
+  <!-- Rill -->
+  <path class="tile" d="M474 646 H954 Q976 646 976 668 V770 L940 806 H474 Q450 806 450 782 V670 Q450 646 474 646 Z"/>
+  <circle cx="484" cy="682" r="4.7" fill="#69c8ff" class="pulse p4"/>
+  <text x="502" y="689" class="display fg" font-size="20" font-weight="710">Rill</text>
+  <text x="484" y="730" class="body muted" font-size="14">A music player I keep rebuilding whenever I want to push</text>
+  <text x="484" y="753" class="body muted" font-size="14">GPUI · Rive · window motion a little harder.</text>
+  <path d="M764 686 C776 676 788 696 800 686 C812 676 824 696 836 686 C848 676 860 696 872 686" class="cyan"/>
+  <path id="rillSeek" d="M764 716 H916" class="bus"/>
+  <circle r="3.1" fill="#f4f6f8" class="tracer"><animateMotion dur="6.4s" repeatCount="indefinite" path="M764 716 H916"/></circle>
+</g>
+
+<!-- MOTION BACKGROUND -->
+<text x="28" y="900" class="display pagefg" font-size="24" font-weight="720">Motion graphics never really left.</text>
+
+<path class="tile" d="M50 924 H596 L628 956 V1070 Q628 1094 604 1094 H50 Q28 1094 28 1072 V946 Q28 924 50 924 Z"/>
+<text x="60" y="970" class="body muted" font-size="14">Before software took over most of my time, I was doing motion graphics and video editing.</text>
+<text x="60" y="1000" class="body muted" font-size="14">I still care way too much about timing, rhythm, hierarchy, and transitions.</text>
+<text x="60" y="1030" class="body muted" font-size="14">Now I just apply the same brain to software.</text>
+
+<!-- easing / pen tool module -->
+<path class="tile" d="M686 914 H956 Q976 914 976 934 V1054 L946 1084 H686 Q664 1084 664 1062 V936 Q664 914 686 914 Z"/>
+<path d="M704 1048 H944 M704 1048 V946" class="handle"/>
+<path d="M740 1048 V946 M784 1048 V946 M862 1048 V946 M704 1008 H944 M704 974 H944" class="busDash"/>
+<path d="M704 1048 L740 1048 M944 946 L784 946" class="handle"/>
+<path id="ease" d="M704 1048 C740 1048 784 946 944 946" class="cyan"/>
+<circle cx="704" cy="1048" r="4.8" fill="#8dff78" class="pulse"/>
+<circle cx="944" cy="946" r="4.8" fill="#69c8ff" class="pulse p2"/>
+<circle cx="740" cy="1048" r="3" fill="#56616c"/>
+<circle cx="784" cy="946" r="3" fill="#56616c"/>
+<circle r="3.2" fill="#f4f6f8" class="tracer"><animateMotion dur="6.8s" repeatCount="indefinite" path="M704 1048 C740 1048 784 946 944 946"/></circle>
+
+<!-- subtle chipped slash accents on plane -->
+<path d="M920 844 L972 814" class="cyan" opacity=".45"/>
+<path d="M938 854 L982 828" class="lime" opacity=".38"/>
+</svg>

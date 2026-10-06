@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170" role="img" aria-labelledby="title desc">
+<title id="title">GitHub activity</title>
+<desc id="desc">A visual bridge into Cy's live GitHub activity widgets.</desc>
+<style>
+  .tile{fill:#050607;stroke:#1a1f25;stroke-width:1.2}
+  .display{font-family:"Bricolage Grotesque","Segoe UI Variable Display","Segoe UI",sans-serif}
+  .body{font-family:"Instrument Sans","Segoe UI Variable Text","Segoe UI",sans-serif}
+  .mono{font-family:"Geist Mono","Cascadia Code","Consolas",monospace}
+  .fg{fill:#f4f6f8}.muted{fill:#929ba5}.dim{fill:#68727d}
+  .bus{fill:none;stroke:#4e5963;stroke-width:1;opacity:.55}
+  .cyan{fill:none;stroke:#69c8ff;stroke-width:2.1;stroke-linecap:round}
+  .pulse{animation:pulse 7s cubic-bezier(.32,.72,0,1) infinite}
+  .cursor{animation:blink 1.25s steps(1,end) infinite}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:.15}}
+  @media (prefers-reduced-motion:reduce){.pulse,.cursor{animation:none}}
+</style>
+
+<path class="tile" d="M48 26 H596 L628 58 V130 Q628 148 610 148 H48 Q28 148 28 128 V46 Q28 26 48 26 Z"/>
+<text x="58" y="72" class="display fg" font-size="24" font-weight="720">GitHub activity</text>
+<text x="58" y="106" class="body muted" font-size="14">Most of what I'm building right now is private, so the public graph is only part of it.</text>
+
+<path class="tile" d="M690 42 H950 L972 64 V118 Q972 138 952 138 H712 L690 116 Z"/>
+<path d="M724 90 H804 C838 90 846 66 878 66 H936" class="cyan"/>
+<circle cx="724" cy="90" r="4.4" fill="#8dff78" class="pulse"/>
+<circle cx="878" cy="66" r="4.4" fill="#69c8ff" class="pulse"/>
+<circle cx="936" cy="66" r="4.4" fill="#69c8ff" class="pulse"/>
+<text x="724" y="120" class="mono dim" font-size="10.5">git status <tspan class="cursor" fill="#69c8ff">█</tspan></text>
+</svg>
