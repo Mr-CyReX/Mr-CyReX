@@ -144,18 +144,18 @@ def custom_mark(x,y,scale=1):
     return f'<g data-lettering="&lt;/Cy&gt;" aria-label="&lt;/Cy&gt;" transform="translate({x} {y}) scale({scale})"><title>&lt;/Cy&gt;</title>{c}</g>'
 
 def heading_accent(x,y):
-    # Two broken registration shards: solid bodies with tapered, low-opacity
-    # tips facing the central break. Their glow is weaker than the card cuts.
-    cbody=f'M{x} {y-1} H{x+25} V{y+1} H{x} Z'
-    ctip=f'M{x+25} {y-1} L{x+30} {y} L{x+25} {y+1} Z'
-    lbody=f'M{x+38} {y-1} H{x+48} V{y+1} H{x+38} Z'
-    ltip=f'M{x+38} {y-1} L{x+33} {y} L{x+38} {y+1} Z'
+    # Two offset shards with a clean central cut. The solid inner ends face
+    # each other; the outer ends taper smoothly to a faded point.
+    cbody=f'M{x+8} {y-1} H{x+28} V{y+1} H{x+8} Z'
+    ctip=f'M{x+8} {y-1} C{x+4} {y-1} {x+1} {y-.55} {x} {y} C{x+1} {y+.55} {x+4} {y+1} {x+8} {y+1} Z'
+    lbody=f'M{x+35} {y-1} H{x+47} V{y+1} H{x+35} Z'
+    ltip=f'M{x+47} {y-1} C{x+51} {y-1} {x+54} {y-.55} {x+55} {y} C{x+54} {y+.55} {x+51} {y+1} {x+47} {y+1} Z'
     glow=path(cbody,'',fill='#31586B',opacity='.22',filter='url(#edgeBlur)')
-    glow+=path(ctip,'',fill='#31586B',opacity='.12',filter='url(#edgeBlur)')
+    glow+=path(ctip,'',fill='#31586B',opacity='.11',filter='url(#edgeBlur)')
     glow+=path(lbody,'',fill='#45683F',opacity='.20',filter='url(#edgeBlur)')
-    glow+=path(ltip,'',fill='#45683F',opacity='.11',filter='url(#edgeBlur)')
-    cyan=path(cbody,'',fill='#69C8FF')+path(ctip,'',fill='#69C8FF',opacity='.34')
-    lime=path(lbody,'',fill='#8DFF78')+path(ltip,'',fill='#8DFF78',opacity='.34')
+    glow+=path(ltip,'',fill='#45683F',opacity='.10',filter='url(#edgeBlur)')
+    cyan=path(cbody,'',fill='#69C8FF')+path(ctip,'',fill='#69C8FF',opacity='.38')
+    lime=path(lbody,'',fill='#8DFF78')+path(ltip,'',fill='#8DFF78',opacity='.38')
     return glow+cyan+lime
 
 def tile_d(x,y,w,h,cut=28):
