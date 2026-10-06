@@ -1,15 +1,15 @@
 <!-- Ali Sh / Mr-CyReX -->
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/hero-mobile-still.svg?v=20261006e">
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-still.svg?v=20261006e">
-  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg?v=20261006e">
-  <img src="./assets/hero.svg?v=20261006e" width="100%" alt="Ali Sh / Mr-CyReX — Software developer &amp; motion graphics designer. Mostly Rust. I build tools I wish existed, then obsess over how they feel.">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/hero-mobile-still.svg?v=20261006f">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-still.svg?v=20261006f">
+  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg?v=20261006f">
+  <img src="./assets/hero.svg?v=20261006f" width="100%" alt="Ali Sh / Mr-CyReX — Software developer &amp; motion graphics designer. Mostly Rust. I build tools I wish existed, then obsess over how they feel.">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg?v=20261006e">
-  <img src="./assets/stack.svg?v=20261006e" width="100%" alt="Stack">
+  <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg?v=20261006f">
+  <img src="./assets/stack.svg?v=20261006f" width="100%" alt="Stack">
 </picture>
 
 <p align="center">
@@ -34,24 +34,24 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/projects-mobile-still.svg?v=20261006e">
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/projects-still.svg?v=20261006e">
-  <source media="(max-width: 600px)" srcset="./assets/projects-mobile.svg?v=20261006e">
-  <img src="./assets/projects.svg?v=20261006e" width="100%" alt="What I&#x27;m building: Hexus, Computer Control MCP, Rill and OpsDesk. Full descriptions in the text version below.">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/projects-mobile-still.svg?v=20261006f">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/projects-still.svg?v=20261006f">
+  <source media="(max-width: 600px)" srcset="./assets/projects-mobile.svg?v=20261006f">
+  <img src="./assets/projects.svg?v=20261006f" width="100%" alt="What I&#x27;m building: Hexus, Computer Control MCP, Rill and OpsDesk. Full descriptions in the text version below.">
 </picture>
 
 <br>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/motion-mobile-still.svg?v=20261006e">
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/motion-still.svg?v=20261006e">
-  <source media="(max-width: 600px)" srcset="./assets/motion-mobile.svg?v=20261006e">
-  <img src="./assets/motion.svg?v=20261006e" width="100%" alt="Motion still shapes how I build. I still think like a motion designer, so timing, hierarchy, transitions, and polish end up in the software too.">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/motion-mobile-still.svg?v=20261006f">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/motion-still.svg?v=20261006f">
+  <source media="(max-width: 600px)" srcset="./assets/motion-mobile.svg?v=20261006f">
+  <img src="./assets/motion.svg?v=20261006f" width="100%" alt="Animation still shapes how I build. I still think like a motion designer, so timing, hierarchy, transitions, and polish end up in the software too.">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/activity-mobile.svg?v=20261006e">
-  <img src="./assets/activity.svg?v=20261006e" width="100%" alt="GitHub activity. Most of this work is private, so GitHub only gets to count part of it.">
+  <source media="(max-width: 600px)" srcset="./assets/activity-mobile.svg?v=20261006f">
+  <img src="./assets/activity.svg?v=20261006f" width="100%" alt="GitHub activity. Most of this work is private, so GitHub only gets to count part of it.">
 </picture>
 
 <p align="center">
@@ -81,6 +81,6 @@ C++ · TypeScript · Go · Docker · Git · GitHub · Slint.</p>
 <li><strong>Rill.</strong> My excuse to keep pushing GPUI, Rive, window motion, and native desktop UX a little harder.</li>
 <li><strong>OpsDesk.</strong> A proper internal-tool demo for work that still lives in spreadsheets. Roles, approvals, imports, audit trails, local data.</li>
 </ul>
-<p>Motion still shapes how I build. I still think like a motion designer: timing, hierarchy, transitions, and polish end up in the software too. I don't really separate the two anymore.</p>
+<p>Animation still shapes how I build. I still think like a motion designer: timing, hierarchy, transitions, and polish end up in the software too. I don't really separate the two anymore.</p>
 <p>Most of this work is private, so GitHub only gets to count part of it.</p>
 </details>
