@@ -4,12 +4,13 @@ from html import escape
 from urllib.parse import urlencode, quote
 
 ROOT=Path(__file__).resolve().parent.parent
+ASSET_REV='63ade68'
 
 def picture(name,alt):
     reduced=''
     if name in ('hero','motion','projects'):
-        reduced=f'  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/{name}-mobile-still.svg">\n  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/{name}-still.svg">\n'
-    return f'<picture>\n{reduced}  <source media="(max-width: 600px)" srcset="./assets/{name}-mobile.svg">\n  <img src="./assets/{name}.svg" width="100%" alt="{escape(alt,quote=True)}">\n</picture>'
+        reduced=f'  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/{name}-mobile-still.svg?v={ASSET_REV}">\n  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/{name}-still.svg?v={ASSET_REV}">\n'
+    return f'<picture>\n{reduced}  <source media="(max-width: 600px)" srcset="./assets/{name}-mobile.svg?v={ASSET_REV}">\n  <img src="./assets/{name}.svg?v={ASSET_REV}" width="100%" alt="{escape(alt,quote=True)}">\n</picture>'
 
 def badge(label,logo='',color='F4F6F8',secondary=False):
     query={'style':'flat-square' if secondary else 'for-the-badge','logoColor':color,'labelColor':'000000'}
